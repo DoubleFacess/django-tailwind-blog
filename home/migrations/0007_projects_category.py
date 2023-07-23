@@ -6,12 +6,12 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0001_initial'),
+        ('home', '0006_initial'),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='blog',
+            model_name='projects',
             name='category',
             field=models.CharField(default='uncategorized', max_length=255),
         ),

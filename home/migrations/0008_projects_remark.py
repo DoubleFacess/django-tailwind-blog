@@ -7,12 +7,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_blog_category'),
+        ('home', '0007_projects_category'),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='blog',
+            model_name='projects',
             name='remark',
             field=ckeditor.fields.RichTextField(null=True, unique=True),
         ),
