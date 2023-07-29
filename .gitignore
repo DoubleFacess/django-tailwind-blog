@@ -1,0 +1,49 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__
+
+# Development and runtime artifacts
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+media
+staticfiles
+
+# Secret keys and sensitive information
+*.env
+*.env.*
+.env.local
+*.sqlite3
+
+# Development settings
+local_settings.py
+
+# Visual Studio Code specific settings
+.vscode/
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS-specific files
+.DS_Store
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Compiled C extensions
+*.so
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
